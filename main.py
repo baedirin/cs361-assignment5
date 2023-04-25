@@ -53,7 +53,7 @@ while not already_exited:
             break
         else:
             already_exited = True
-            print("Thank you for using the OldSchool RuneScape Exchange Portal!")
+            print("Thank you for using the OldSchool RuneScape Grand Exchange Portal!")
             continue
 
     print(f"\nSearching for {item_name}...\n")
@@ -76,7 +76,7 @@ while not already_exited:
                     break
                 else:
                     already_exited = True
-                    print("Thank you for using the OldSchool RuneScape Exchange Portal!")
+                    print("Thank you for using the OldSchool RuneScape Grand Exchange Portal!")
                     break
             else:
                 item_name = search_again
@@ -96,7 +96,7 @@ while not already_exited:
                     break
                 else:
                     already_exited = True
-                    print("Thank you for using the OldSchool RuneScape Exchange Portal!")
+                    print("Thank you for using the OldSchool RuneScape Grand Exchange Portal!")
                     break
         else:
             print("Invalid input. Please enter 'Y' or 'N'.\n")
