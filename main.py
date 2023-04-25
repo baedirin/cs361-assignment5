@@ -58,7 +58,6 @@ while not already_exited:
 
     print(f"\nSearching for {item_name}...\n")
 
-    # Open the wiki page for the item
     url = f"https://oldschool.runescape.wiki/w/{item_name}"
 
     while True:
